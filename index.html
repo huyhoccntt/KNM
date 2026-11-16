@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="E-Portfolio của Trần Mạnh Huy, sinh viên Công nghệ Thông tin tại Đại học Lạc Hồng.">
+    <title>Trang chủ | Trần Mạnh Huy — E-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#main">Đi đến nội dung chính</a>
+    <header class="site-header">
+        <nav class="nav-container" aria-label="Điều hướng chính">
+            <a class="brand" href="index.html" aria-label="Về trang chủ"><span class="brand-mark"><i class="fa-solid fa-house" aria-hidden="true"></i></span><span>Trần Mạnh Huy<small>IT STUDENT · LHU</small></span></a>
+            <button class="menu-toggle icon-button" type="button" aria-label="Mở menu" aria-expanded="false" aria-controls="primary-navigation"><i class="fa-solid fa-bars" aria-hidden="true"></i></button>
+            <div class="nav-panel" id="primary-navigation">
+                <ul class="nav-links">
+                    <li><a class="nav-link active" aria-current="page" href="index.html">Trang chủ</a></li>
+                    <li><a class="nav-link" href="coursework.html">Giới thiệu môn học</a></li>
+                    <li><a class="nav-link" href="defining-brand.html">Defining Brand</a></li>
+                    <li><a class="nav-link" href="personal-brand.html">Build a Personal Brand</a></li>
+                    <li><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                    <li><a class="nav-link" href="website-portfolio.html">Website Portfolio</a></li>
+                </ul>
+                <button class="theme-toggle icon-button" type="button" aria-label="Bật giao diện tối" title="Đổi giao diện"><i class="fa-solid fa-moon" aria-hidden="true"></i></button>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section class="hero section-shell">
+            <div class="hero-copy">
+                <p class="eyebrow"><span class="status-dot"></span> IT STUDENT · LẠC HỒNG UNIVERSITY</p>
+                <h1>Xin chào,<br>tôi là Trần Mạnh <span>Huy.</span></h1>
+                <p class="hero-lead">Chào mừng bạn đến với E-Portfolio và thương hiệu cá nhân của tôi — nơi lưu giữ hành trình học tập, định hướng nghề nghiệp và những minh chứng thực tế trong lĩnh vực Công nghệ Thông tin.</p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="coursework.html">Bắt đầu khám phá <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                    <a class="button button-secondary" href="portfolio.html">Xem Portfolio</a>
+                </div>
+                <div class="hero-note"><span class="note-icon"><i class="fa-solid fa-location-dot" aria-hidden="true"></i></span><span><strong>Biên Hòa, Đồng Nai</strong><small>Sinh viên Khoa Công nghệ Thông tin · LHU</small></span></div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-image-wrap"><img src="ảnh/mat.jpg" alt="Mô hình mạch điện tử và bộ đếm LED trong bài thực hành" fetchpriority="high"><span class="image-label"><i class="fa-solid fa-microchip" aria-hidden="true"></i> Học qua thực hành</span></div>
+                <div class="floating-card"><span class="floating-icon"><i class="fa-solid fa-code" aria-hidden="true"></i></span><span><strong>Show, Don't Just Tell</strong><small>Thể hiện năng lực qua sản phẩm</small></span></div>
+                <span class="hero-orbit orbit-one"></span><span class="hero-orbit orbit-two"></span>
+            </div>
+        </section>
+
+        <section class="section-shell home-intro">
+            <div class="section-heading"><p class="eyebrow">CORE IDENTITY</p><h2>Định vị cốt lõi <span>của tôi</span></h2></div>
+            <div class="code-strip"><span class="code-comment">// Trần Mạnh Huy · Công nghệ Thông tin — ĐH Lạc Hồng</span><br><span class="code-keyword">const</span> profile = {<br>&nbsp;&nbsp;philosophy: <span class="code-string">"Show, Don't Just Tell"</span>,<br>&nbsp;&nbsp;traits: [<span class="code-string">"Systematic"</span>, <span class="code-string">"Reliable"</span>, <span class="code-string">"Proactive"</span>]<br>};</div>
+            <div class="home-shortcuts">
+                <a class="shortcut-card" href="defining-brand.html"><span>01</span><strong>Định vị thương hiệu</strong><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                <a class="shortcut-card" href="personal-brand.html"><span>02</span><strong>Hành trình phát triển</strong><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                <a class="shortcut-card" href="portfolio.html"><span>03</span><strong>Dự án & minh chứng</strong><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer"><a class="brand footer-brand" href="index.html" aria-label="Về trang chủ"><span class="brand-mark"><i class="fa-solid fa-house" aria-hidden="true"></i></span><span>Trần Mạnh Huy<small>IT STUDENT · LHU</small></span></a><p>© <span class="current-year">2026</span> Trần Mạnh Huy · Khoa Công nghệ Thông tin, LHU.</p><a class="back-to-top" href="#main">Lên đầu trang <i class="fa-solid fa-arrow-up" aria-hidden="true"></i></a></footer>
+</body>
+</html>

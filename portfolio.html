@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="Portfolio các dự án học tập và minh chứng thực tế của Trần Mạnh Huy.">
+    <title>Portfolio | Trần Mạnh Huy — E-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#main">Đi đến nội dung chính</a>
+    <header class="site-header"><nav class="nav-container" aria-label="Điều hướng chính">
+        <a class="brand" href="index.html" aria-label="Về trang chủ"><span class="brand-mark"><i class="fa-solid fa-house" aria-hidden="true"></i></span><span>Trần Mạnh Huy<small>IT STUDENT · LHU</small></span></a>
+        <button class="menu-toggle icon-button" type="button" aria-label="Mở menu" aria-expanded="false" aria-controls="primary-navigation"><i class="fa-solid fa-bars" aria-hidden="true"></i></button>
+        <div class="nav-panel" id="primary-navigation"><ul class="nav-links">
+            <li><a class="nav-link" href="index.html">Trang chủ</a></li><li><a class="nav-link" href="coursework.html">Giới thiệu môn học</a></li>
+            <li><a class="nav-link" href="defining-brand.html">Defining Brand</a></li><li><a class="nav-link" href="personal-brand.html">Build a Personal Brand</a></li>
+            <li><a class="nav-link active" aria-current="page" href="portfolio.html">Portfolio</a></li><li><a class="nav-link" href="website-portfolio.html">Website Portfolio</a></li>
+        </ul><button class="theme-toggle icon-button" type="button" aria-label="Bật giao diện tối" title="Đổi giao diện"><i class="fa-solid fa-moon" aria-hidden="true"></i></button></div>
+    </nav></header>
+    <main class="page-main" id="main">
+        <div class="page-heading"><p class="eyebrow">04 / MINH CHỨNG THỰC TẾ</p><h1><span>Portfolio.</span> Dự án tiêu biểu</h1><p>Những sản phẩm và trải nghiệm đại diện cho tư duy hệ thống, sự tỉ mỉ và năng lực thực hành của tôi.</p></div>
+        <article class="content-card">
+            <h2>Tổng hợp dự án</h2>
+            <div class="table-wrap"><table>
+                <thead><tr><th>Dự án</th><th>Năng lực đại diện</th><th>Công nghệ & minh chứng</th></tr></thead>
+                <tbody>
+                    <tr><td><strong>1. Quản lý đăng ký học phần & điểm</strong></td><td>Tư duy kiến trúc dữ liệu chặt chẽ, tối ưu hiệu năng.</td><td>SQL, Relational Schema, Indexing, Transactions.</td></tr>
+                    <tr><td><strong>2. Giao diện web responsive</strong></td><td>Sự tỉ mỉ, tính nhất quán thị giác và UI/UX.</td><td>HTML5, CSS3 (Flexbox/Grid), đa thiết bị.</td></tr>
+                    <tr><td><strong>3. Hệ thống điều khiển ngoại vi tự động</strong></td><td>Kết hợp phần mềm và phần cứng vi điều khiển.</td><td>C/C++, Arduino IDE, Arduino Uno / ESP32.</td></tr>
+                    <tr><td><strong>4. Đồ án nhóm cấu trúc dữ liệu & giải thuật</strong></td><td>Tinh thần trách nhiệm, điều phối và thuyết trình.</td><td>Phân chia công việc, báo cáo và demo thực tế.</td></tr>
+                </tbody>
+            </table></div>
+        </article>
+        <article class="content-card">
+            <h2>Hình ảnh & <span>minh chứng</span></h2>
+            <p>Một số hình ảnh thực hành, hồ sơ cá nhân và tài liệu minh chứng trong quá trình học tập.</p>
+            <div class="filter-list" role="group" aria-label="Lọc minh chứng">
+                <button class="filter-button active" type="button" data-filter="all" aria-pressed="true">Tất cả</button>
+                <button class="filter-button" type="button" data-filter="hardware" aria-pressed="false">Phần cứng</button>
+                <button class="filter-button" type="button" data-filter="systems" aria-pressed="false">Hệ thống</button>
+                <button class="filter-button" type="button" data-filter="brand" aria-pressed="false">Thương hiệu</button>
+                <button class="filter-button" type="button" data-filter="office" aria-pressed="false">Microsoft Office</button>
+            </div>
+            <div class="project-gallery">
+                <div class="gallery-card" data-category="hardware"><button class="gallery-image" type="button" data-lightbox="ảnh/1790408717196_707985496628091694_7587636744050648241_572c79e7f4b69ca3872951d2f5c24b72.jpg" data-caption="Mạch vi điều khiển và bộ đếm LED trong bài thực hành."><img src="ảnh/1790408717196_707985496628091694_7587636744050648241_572c79e7f4b69ca3872951d2f5c24b72.jpg" alt="Mạch thử vi điều khiển và bộ đếm LED" loading="lazy"></button><div class="gallery-caption"><strong>Mạch điều khiển ngoại vi</strong><span>Thực hành vi điều khiển và mạch điện tử.</span></div></div>
+                <div class="gallery-card" data-category="systems"><button class="gallery-image" type="button" data-lightbox="ảnh/1793376819086_707985496628091694_7587636744050648241_562b27568632a8b3e4d8fe993f7f26f5.jpg" data-caption="Thực hành kiểm tra bộ nhớ và chẩn đoán máy tính."><img src="ảnh/1793376819086_707985496628091694_7587636744050648241_562b27568632a8b3e4d8fe993f7f26f5.jpg" alt="Máy tính đang chạy công cụ kiểm tra bộ nhớ" loading="lazy"></button><div class="gallery-caption"><strong>Thực hành phần cứng</strong><span>Tìm hiểu quy trình chẩn đoán máy tính.</span></div></div>
+                <div class="gallery-card" data-category="brand"><button class="gallery-image contain" type="button" data-lightbox="ảnh/Screenshot 2026-11-15 230559.png" data-caption="Ảnh chụp hồ sơ cá nhân và cách trình bày trên GitHub."><img src="ảnh/Screenshot 2026-11-15 230559.png" alt="Hồ sơ cá nhân GitHub với nội dung giới thiệu và công nghệ" loading="lazy"></button><div class="gallery-caption"><strong>Hồ sơ cá nhân</strong><span>Giới thiệu và trình bày kỹ năng trên GitHub.</span></div></div>
+                <article class="gallery-card document-card" data-category="office">
+                    <a class="certificate-preview" href="ảnh/Office%20Word%20(1).pdf" target="_blank" rel="noopener noreferrer" aria-label="Mở chứng chỉ Microsoft Office Specialist Word 2016"><img src="ảnh/Office-Word.png" alt="Chứng chỉ Microsoft Office Specialist Word 2016 của Trần Mạnh Huy" loading="lazy"><span><i class="fa-solid fa-file-pdf" aria-hidden="true"></i> Xem PDF</span></a>
+                    <div class="gallery-caption"><strong>Microsoft Office Specialist: Word 2016</strong><span>Chứng chỉ Microsoft Office Specialist.</span><div class="document-actions"><a href="ảnh/Office%20Word%20(1).pdf" target="_blank" rel="noopener noreferrer">Mở PDF</a><a href="ảnh/Office%20Word%20(1).pdf" download="Minh-chung-Office-Word.pdf">Tải xuống</a></div></div>
+                </article>
+                <article class="gallery-card document-card" data-category="office">
+                    <a class="certificate-preview" href="ảnh/Office%20Excel.pdf" target="_blank" rel="noopener noreferrer" aria-label="Mở chứng chỉ Microsoft Office Specialist Excel 2019"><img src="ảnh/Office-Excel.png" alt="Chứng chỉ Microsoft Office Specialist Excel 2019 Associate của Trần Mạnh Huy" loading="lazy"><span><i class="fa-solid fa-file-pdf" aria-hidden="true"></i> Xem PDF</span></a>
+                    <div class="gallery-caption"><strong>Microsoft Office Specialist: Excel 2019</strong><span>Chứng chỉ Excel 2019 Associate.</span><div class="document-actions"><a href="ảnh/Office%20Excel.pdf" target="_blank" rel="noopener noreferrer">Mở PDF</a><a href="ảnh/Office%20Excel.pdf" download="Minh-chung-Office-Excel.pdf">Tải xuống</a></div></div>
+                </article>
+                <article class="gallery-card document-card" data-category="office">
+                    <a class="certificate-preview" href="ảnh/Office%20PowerPoint.pdf" target="_blank" rel="noopener noreferrer" aria-label="Mở chứng chỉ Microsoft Office Specialist PowerPoint 2016"><img src="ảnh/Office-PowerPoint.png" alt="Chứng chỉ Microsoft Office Specialist PowerPoint 2016 của Trần Mạnh Huy" loading="lazy"><span><i class="fa-solid fa-file-pdf" aria-hidden="true"></i> Xem PDF</span></a>
+                    <div class="gallery-caption"><strong>Microsoft Office Specialist: PowerPoint 2016</strong><span>Chứng chỉ Microsoft Office Specialist.</span><div class="document-actions"><a href="ảnh/Office%20PowerPoint.pdf" target="_blank" rel="noopener noreferrer">Mở PDF</a><a href="ảnh/Office%20PowerPoint.pdf" download="Minh-chung-Office-PowerPoint.pdf">Tải xuống</a></div></div>
+                </article>
+            </div>
+            <p class="empty-state" hidden>Chưa có minh chứng trong mục này.</p>
+        </article>
+        <div class="page-nav"><a class="button button-secondary" href="personal-brand.html"><i class="fa-solid fa-arrow-left" aria-hidden="true"></i> Build a Personal Brand</a><a class="button button-primary" href="website-portfolio.html">Tiếp theo: Website Portfolio <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a></div>
+    </main>
+    <button class="lightbox" type="button" aria-label="Đóng ảnh phóng to" aria-hidden="true"><span class="lightbox-close"><i class="fa-solid fa-xmark" aria-hidden="true"></i></span><img src="" alt=""><span class="lightbox-caption"></span></button>
+    <footer class="site-footer"><a class="brand footer-brand" href="index.html" aria-label="Về trang chủ"><span class="brand-mark"><i class="fa-solid fa-house" aria-hidden="true"></i></span><span>Trần Mạnh Huy<small>IT STUDENT · LHU</small></span></a><p>© <span class="current-year">2026</span> Trần Mạnh Huy · Khoa Công nghệ Thông tin, LHU.</p><a class="back-to-top" href="#main">Lên đầu trang <i class="fa-solid fa-arrow-up" aria-hidden="true"></i></a></footer>
+</body>
+</html>
